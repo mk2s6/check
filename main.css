@@ -1,0 +1,91 @@
+body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: cursive;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-ordinal-group:1;
+	width: 100%;
+}
+
+h1 {
+	margin: 10px;
+	font-family: cursive;
+	padding: 10px;
+	border:1px solid rgba(172,222,255,0.5);
+	background-color: #acdeff;
+	box-shadow: 5px 5px 5px rgba(150,150,150,0.5);
+	margin-bottom: 0px;
+	color: tomato;
+	border-top-right-radius : 5px;
+	border-top-left-radius:  5px;
+}
+
+h2 {
+	margin: 10px;
+	padding: 10px;
+	color: tomato;
+	display: content-box;
+	background-color: #55efae;
+	box-shadow: 5px 5px 5px rgba(150,150,150,0.5);
+	margin-top: 0px;
+	border-bottom-right-radius : 5px;
+	border-bottom-left-radius:  5px
+}
+
+ul {
+	list-style: none;
+}
+ul {
+	margin-top: 50px;
+	padding: 10px;
+	background-color: #f0f0f0;
+	margin-right: 50px;
+	margin-left: 50px;
+	width: auto;
+	border-radius: 10px;
+	border : 2px solid #666;
+}
+
+ul#orders li {
+	border: 2px dotted #333;
+	margin: 5px;
+	padding: 5px;
+	clear: right;
+}
+
+li:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+form {
+	margin-top: 50px;
+	padding: 10px;
+	background-color: #f0f0f0;
+	width: 300px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+form:hover {
+	box-shadow: 5px 5px 10px #ccc;
+	box-sizing: unset;
+}
+
+input[type=button]:hover {
+	cursor: pointer;
+}
+aside{
+	display: -webkit-box;
+}
+#siva {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+
+
+button.remove {
+	/*align-items: right!important;*/
+	text-align: right!important;
+}
